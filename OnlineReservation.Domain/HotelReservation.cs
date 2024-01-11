@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OnlineReservation.Domain.common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace OnlineReservation.Domain
 {
-    public class HotelReservation
+    public class HotelReservation: BaseEntity
     {
-        public int  Id { get; set; }
+        
         public Hotel Hotel { get; set; }
         public DateTime CheckIn { get; set; }
         public DateTime CheckOut { get; set; } = DateTime.Now;
