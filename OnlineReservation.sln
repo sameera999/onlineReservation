@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A16857E5-D94B-4AB9-BAC0-FA44E4EFEEC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5C7173BF-8F61-4B4F-BA08-E7F9D3BC7E51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5C63653C-8313-4788-90E3-ABF6FF85E614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3A78C852-E810-4D50-B4FF-90FD8B81CCCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C083F05A-A100-4835-B37B-47523ACA8FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineReservation.Domain", "OnlineReservation.Domain\OnlineReservation.Domain.csproj", "{5F2906FF-40E7-43A6-9A28-8A60C967D8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineReservation.Application", "OnlineReservation.Application\OnlineReservation.Application.csproj", "{FB542E39-E00E-4672-9468-8735D043E070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F2906FF-40E7-43A6-9A28-8A60C967D8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2906FF-40E7-43A6-9A28-8A60C967D8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2906FF-40E7-43A6-9A28-8A60C967D8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2906FF-40E7-43A6-9A28-8A60C967D8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB542E39-E00E-4672-9468-8735D043E070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB542E39-E00E-4672-9468-8735D043E070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB542E39-E00E-4672-9468-8735D043E070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB542E39-E00E-4672-9468-8735D043E070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C63653C-8313-4788-90E3-ABF6FF85E614} = {A16857E5-D94B-4AB9-BAC0-FA44E4EFEEC0}
+		{3A78C852-E810-4D50-B4FF-90FD8B81CCCB} = {A16857E5-D94B-4AB9-BAC0-FA44E4EFEEC0}
+		{C083F05A-A100-4835-B37B-47523ACA8FD0} = {A16857E5-D94B-4AB9-BAC0-FA44E4EFEEC0}
+		{5F2906FF-40E7-43A6-9A28-8A60C967D8C7} = {5C63653C-8313-4788-90E3-ABF6FF85E614}
+		{FB542E39-E00E-4672-9468-8735D043E070} = {5C63653C-8313-4788-90E3-ABF6FF85E614}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {894E0E70-A8B6-435F-B296-21534ED1F7BF}
+	EndGlobalSection
+EndGlobal
