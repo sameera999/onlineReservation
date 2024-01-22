@@ -12,4 +12,12 @@
     <PackageReference Include="MediatR" Version="12.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineReservation.Domain\OnlineReservation.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Hotel\Commands\" />
+  </ItemGroup>
+
 </Project>

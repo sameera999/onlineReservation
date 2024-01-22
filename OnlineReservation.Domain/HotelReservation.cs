@@ -9,12 +9,17 @@ namespace OnlineReservation.Domain
 {
     public class HotelReservation: BaseEntity
     {
-        
-        public Hotel Hotel { get; set; }
+        public int Id { get; set; }        
         public DateTime CheckIn { get; set; }
         public DateTime CheckOut { get; set; } = DateTime.Now;
         public int NoOfAdults { get; set; }
         public int NoOfChildren { get; set;}
-        public List<Room> Rooms { get;}
+
+
+        public int CustomerId { get; set; }
+        public int HotelId { get; set; }
+        public virtual Hotel Hotel { get; set; } = new Hotel();
+        public ICollection<Room> ReservedRooms { get; set; }
+        
     }
 }
