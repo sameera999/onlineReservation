@@ -16,8 +16,4 @@
     <ProjectReference Include="..\OnlineReservation.Domain\OnlineReservation.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Hotel\Commands\" />
-  </ItemGroup>
-
 </Project>
